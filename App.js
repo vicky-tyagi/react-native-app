@@ -1,10 +1,10 @@
 import React from 'react';
 import { SafeAreaView, Text } from 'react-native';
-import Login from './src/appLayout/Login';
+import ApplicationLayout from './src/appLayout/ApplicationLayout';
 const App = () => {
   return (
     <SafeAreaView>
-      <Login />
+      <ApplicationLayout />
     </SafeAreaView>
   );
 };
